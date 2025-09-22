@@ -1,0 +1,29 @@
+main{
+  display: flex;
+  width: 400px;
+  margin: 0 auto;
+}
+
+nav{
+  position: relative;
+}
+
+nav ul{
+  width: 7rem;
+  list-style: none;
+}
+
+nav ul li{
+  padding: .5rem;
+}
+
+nav ul a{
+  padding: .5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav a.active{
+  background-color: seagreen;
+  color: white;
+}

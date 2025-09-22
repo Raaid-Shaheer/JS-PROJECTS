@@ -1,0 +1,58 @@
+html{
+  height: 100%;
+}
+body{  
+    height: 100%;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   padding: 0;
+   margin: 0;
+   background-image: url("bgimage.jpg");
+    background-size: cover;
+}
+
+button{
+  margin: 2rem;
+  background-color: green;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  box-shadow: 0 0 12px 8px rgba(243, 238, 238, 0.5);
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: darkgreen;
+}
+
+.modal{
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;  
+}
+
+.modal__overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal__content{
+  background-color: white;
+  padding: 4rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.modal.open{
+  display: flex;
+}

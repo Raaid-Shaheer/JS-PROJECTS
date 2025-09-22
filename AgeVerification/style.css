@@ -1,0 +1,22 @@
+body{
+  margin: 50px;
+}
+
+#myText{
+  margin-top: 10px;
+
+}
+
+#myButton{
+  padding: .5em 1em;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+p{
+  font-size: 20px;
+  font-weight: bold;
+}
