@@ -2,12 +2,9 @@ body{
   margin: 4px auto;
   width: 400px;
 }
-
 nav{
   width: 100%;
- 
 }
-
 nav ul{
   list-style: none;
   display: flex;
@@ -16,7 +13,6 @@ nav ul{
   justify-content: flex-start;
   border-bottom: 2px solid gray;
 }
-
 nav ul li {
   padding: .5rem;
   
@@ -27,16 +23,13 @@ nav ul li {
   border-top-right-radius: .5rem;
   
 }
-
 nav ul a{
   text-decoration: none;
 }
-
 nav li.active{
   background-color: lightseagreen;
   color: white;
 }
-
 .hidden{
   display: none;
 }
